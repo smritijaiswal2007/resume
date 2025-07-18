@@ -1,0 +1,132 @@
+#mainbox{
+    width: 100%;
+    height:280px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.leftbox{
+    width: 30%;
+    height:100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(91, 91, 120);
+}
+.circlebox{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(RESUME\ MAKING.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    
+    
+}
+.leftcontent{
+    color: rgb(252, 252, 252);
+    
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+margin-top: 5%;
+font-size: 10px;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+    margin-bottom: 7%;
+
+}
+.subhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+}
+.skillsec ol li{
+    font-size: 1px;
+}
+.line{
+    margin-bottom: 5%;
+    width: 80px;
+    border: 1px solid black;
+}
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+
+font-size: 10px;
+}
+.allskill{
+    margin-right:25%;
+    font-size: 5px;
+}
+.line2{
+    margin-bottom: 5%;
+    width: 80px;
+    border: 1px solid black;
+}
+.line3{
+    margin-bottom: 5%;
+    width: 80px;
+    border: 1px solid black;
+}
+#rightbox{
+    width:70%;
+    height:100%;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    
+}
+#right1{
+    width: 100%;
+    height:80px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+.name{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.head{
+    font-size: 8px;
+    font-weight: bold;
+    
+}
+.subhead{
+    font-size: 7px;
+}
+#right2{
+    width: 100%;
+    height:200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+#right3{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
