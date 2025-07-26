@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#main{
+    width: 50%;
+    height: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-left: 15%;
+    position: relative;
+    
+}
+.secbox{
+    height: 70%;
+    width: 40%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+    position: absolute;
+    bottom: 20px; 
+    right: 20px;
+    
+}
+.blue{
+    width: 100%;
+    height: 25%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    background-color: blue;
+}
+h3{
+    color: blue;
+    margin-left: 10%;
+}
+.line{
+    height: 120px;
+    width: 3px;
+    background-color: blue;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
+}
